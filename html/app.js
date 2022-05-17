@@ -511,96 +511,96 @@ document.onkeyup = function (data) {
 
 function closeMenu() {
   $("#openmenu").fadeOut(550);
-  $.post('https://qb-hud/closeMenu');
+  $.post('https://ps-hud/closeMenu');
 }
 function restartHud() {
   closeMenu()
-  $.post('https://qb-hud/restartHud');
+  $.post('https://ps-hud/restartHud');
 }
 function resetStorage() {
   closeMenu()
-  $.post('https://qb-hud/resetStorage');
+  $.post('https://ps-hud/resetStorage');
 }
 function showOutMap() {
-  $.post('https://qb-hud/showOutMap');
+  $.post('https://ps-hud/showOutMap');
 }
 function showOutCompass() {
-  $.post('https://qb-hud/showOutCompass');
+  $.post('https://ps-hud/showOutCompass');
 }
 function showFollowCompass() {
-  $.post('https://qb-hud/showFollowCompass');
+  $.post('https://ps-hud/showFollowCompass');
 }
 function openMenuSounds() {
-  $.post('https://qb-hud/openMenuSounds');
+  $.post('https://ps-hud/openMenuSounds');
 }
 function resetHudSounds() {
-  $.post('https://qb-hud/resetHudSounds');
+  $.post('https://ps-hud/resetHudSounds');
 }
 function checklistSounds() {
-  $.post('https://qb-hud/checklistSounds');
+  $.post('https://ps-hud/checklistSounds');
 }
 function showMapNotif() {
-  $.post('https://qb-hud/showMapNotif');
+  $.post('https://ps-hud/showMapNotif');
 }
 function showFuelAlert() {
-  $.post('https://qb-hud/showFuelAlert');
+  $.post('https://ps-hud/showFuelAlert');
 }
 function showCinematicNotif() {
-  $.post('https://qb-hud/showCinematicNotif');
+  $.post('https://ps-hud/showCinematicNotif');
 }
 function dynamicHealth() {
-  $.post('https://qb-hud/dynamicHealth');
+  $.post('https://ps-hud/dynamicHealth');
 }
 function dynamicArmor() {
-  $.post('https://qb-hud/dynamicArmor');
+  $.post('https://ps-hud/dynamicArmor');
 }
 function dynamicHunger() {
-  $.post('https://qb-hud/dynamicHunger');
+  $.post('https://ps-hud/dynamicHunger');
 }
 function dynamicThirst() {
-  $.post('https://qb-hud/dynamicThirst');
+  $.post('https://ps-hud/dynamicThirst');
 }
 function dynamicStress() {
-  $.post('https://qb-hud/dynamicStress');
+  $.post('https://ps-hud/dynamicStress');
 }
 function dynamicOxygen() {
-  $.post('https://qb-hud/dynamicOxygen');
+  $.post('https://ps-hud/dynamicOxygen');
 }
 function dynamicEngine() {
-  $.post('https://qb-hud/dynamicEngine');
+  $.post('https://ps-hud/dynamicEngine');
 }
 function dynamicNitro() {
-  $.post('https://qb-hud/dynamicNitro');
+  $.post('https://ps-hud/dynamicNitro');
 }
 function ToggleMapShape() {
-  $.post('https://qb-hud/ToggleMapShape');
+  $.post('https://ps-hud/ToggleMapShape');
 }
 function changeFPS() {
-  $.post('https://qb-hud/changeFPS');
+  $.post('https://ps-hud/changeFPS');
 }
 function ToggleMapBorders() {
-  $.post('https://qb-hud/ToggleMapBorders');
+  $.post('https://ps-hud/ToggleMapBorders');
 }
 function HideMap() {
-  $.post('https://qb-hud/HideMap');
+  $.post('https://ps-hud/HideMap');
 }
 function changeCompassFPS() {
-  $.post('https://qb-hud/changeCompassFPS');
+  $.post('https://ps-hud/changeCompassFPS');
 }
 function showCompassBase() {
-  $.post('https://qb-hud/showCompassBase');
+  $.post('https://ps-hud/showCompassBase');
 }
 function showStreetsNames() {
-  $.post('https://qb-hud/showStreetsNames');
+  $.post('https://ps-hud/showStreetsNames');
 }
 function showPointerIndex() {
-  $.post('https://qb-hud/showPointerIndex');
+  $.post('https://ps-hud/showPointerIndex');
 }
 function showDegreesNum() {
-  $.post('https://qb-hud/showDegreesNum');
+  $.post('https://ps-hud/showDegreesNum');
 }
 function cinematicMode() {
-  $.post('https://qb-hud/cinematicMode');
+  $.post('https://ps-hud/cinematicMode');
 }
 
 $(document).ready(function () {
