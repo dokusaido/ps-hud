@@ -76,7 +76,7 @@ end
 
 local function sendBuffNUIData()
     -- Get player buffs nui info if they have buffs
-    local buffNUIData = exports['tnj-buffs']:GetBuffNUIData()
+    local buffNUIData = exports['ps-buffs']:GetBuffNUIData()
     if buffNUIData then
         SendNUIMessage({
             action = "externalstatus",
