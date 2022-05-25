@@ -690,8 +690,7 @@ const moneyHud = Vue.createApp({
           setTimeout(() => (this.showUpdate = false), 1000);
           setTimeout(() => (this.showCash = false), 2000);
         }
-      }
-      if (data.type === "bank") {
+      } else if (data.type === "bank") {
         if (data.minus) {
           this.showBank = true;
           this.minus = true;
@@ -703,6 +702,8 @@ const moneyHud = Vue.createApp({
           setTimeout(() => (this.showUpdate = false), 1000);
           setTimeout(() => (this.showBank = false), 2000);
         }
+      } else {
+        setTimeout(() => (this.showUpdate = false), 1000);
       }
     },
     showAccounts(data) {
